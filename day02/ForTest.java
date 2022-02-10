@@ -13,7 +13,7 @@ class ForTest
 		}
 
 		 for( ; ; ){
-		 System.out.prinln("여기는 반복문 내부의 무한 루프");
+		 System.out.println("여기는 반복문 내부의 무한 루프");
 		 }
 		
 	} // end of main

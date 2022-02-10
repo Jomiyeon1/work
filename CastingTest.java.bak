@@ -19,9 +19,9 @@ public class CastingTest
 	byte b4 = (byte)(b1+b2);
 	System.out.println("b4(b1+b4) : " + b4);
 
-	byte b5 = byte(b1+b4);
+     byte b5 = (byte)(b1+b4);
 	//쓰레기값 출력(==>실행시 출력결과 확인할 것)
-	System.out.println("b5(b1+b4) : " + b5);
+	//System.out.println("b5(b1+b4) : " + b5);
 
 	//==>묵시적 형변환
 	int i1 = b1 + b2;
@@ -37,16 +37,16 @@ public class CastingTest
 
 	//실수를 정수형에 대입하면 결과는 ==> ??
 	int i3 = 201/2;
-	System.out.println("i3(201/2) : " + i3);
+	System.out.println("i3(201/2) : " + i3);  //100
 
 	//정수의 계산을 실수형에 대입시 결과는 ==> ??
 	double d1 = 201/2;
-	System.out.println("d1(201/2): " + d1);
+	System.out.println("d1(201/2): " + d1); //100.0
 
 	//정수 int DataType 201을 실수 double Data Type으로 명시적 형변환 후
 	//계산 결과를 double Data Type으로 받으면 출력 결과는 ==> ??
-	double d2 = (double)201/2;
-	System.out.println("d2(201/2): " + d2);
+	double d2 = (double)(201/2);
+	System.out.println("d2(201/2): " + d2); //100.5
 
   }//end of main
 }//end of class

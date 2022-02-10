@@ -23,7 +23,7 @@ public class PrimitiveTest{
 
 	short s = 1000;
 	int i = 1000;
-	long l = 1000L;   //<== long의 경우 000l 또는 000L로 int와 구별
+	long l = 1000;   //<== long의 경우 000l 또는 000L로 int와 구별
 
 	//실수형
 	float f = 1000.5F;  //<== float의 경유 000F 또는 000f로 double와 구별

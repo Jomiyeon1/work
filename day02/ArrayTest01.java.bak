@@ -35,7 +35,7 @@ class ArrayTest01
 		//System.out.println("j[5] ==>" + j[5]);
 		//System.out.println("intArray[5] ==>" + intArray[5]);
 		
-		System.out.pirntln(j.length);
+		System.out.pirntln(intArray.length);
 	
 	
 	}//main

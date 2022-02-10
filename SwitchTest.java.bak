@@ -16,7 +16,7 @@ public class SwitchTest{
 	switch(inputData){
 	case 1:
 	  System.out.println("입력하신 값은 1입니다.");
-	  break;
+	//  break;
 	case 2:
 	  System.out.println("입력하신 값은 2입니다.");
 	case 3:
@@ -28,7 +28,7 @@ public class SwitchTest{
 	  break;
 	default : 
 	  System.out.println("case문을 다 통과(동일상수가 없을 경우)");
-	  System.our.println(" defalut가 수행됨.. 입력하신 수는" + inputData + "입니다.");
+	  System.out.println(" defalut가 수행됨.. 입력하신 수는" + inputData + "입니다.");
 
 	}//end of switch
 

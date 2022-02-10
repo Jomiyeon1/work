@@ -11,6 +11,7 @@ public class CalculationTest
 	int a; // int data variable a declaration
 	a = 0; // int data type variable a에 value 대입
 	int b = 1; // int data type cariable b declartio 과 동시에 value 대입
+	int c = 2;
 
 	//변수의 값을 출력 ( 문자 + 연산자 사용 => append)
 	System.out.println("a=" + a + ":b = " + b + ":c = " +c);
@@ -28,7 +29,7 @@ public class CalculationTest
 	c += 10;
 	System.out.println("c += 10 = " +c);
 
-	//논리반전연산잔
+	//논리반전연산자
 	boolean boo1 = true;
 	boolean boo2 =!boo1;
 

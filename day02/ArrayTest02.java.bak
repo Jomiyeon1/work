@@ -14,9 +14,9 @@ class ArrayTest02
 			System.out.println("=================");
 
 				for(int k = 0; k < value[j].length;k++){
-					System.out.println("value[" + j + "][" + k + "] = " + valus[j][k]);
-				}
+					System.out.println("value[" + j + "][" + k + "] = " + value[j][k]);
+				} //array 초기값(default)은 0이다.
 		}
 	 
-	}
-}
+	} //main
+} // class

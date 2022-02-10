@@ -25,10 +25,10 @@ public class OperatorTest{
 	System.out.println("--value : " + value);
 
 	//증가감소연산자 사용 ==> 주석을 풀면서 출력결과를 확인
-	int temp = value++; // temp = value ++ 의미 : value의 값을 temp 대입 후 자기자신 1증가
+	//int temp = value++; // temp = value ++ 의미 : value의 값을 temp 대입 후 자기자신 1증가
 	//int temp = value--; // temp = value -- 의미 : value의 값을 temp 대입 후 자기자신 1감소
 	//int temp = ++value; // temp = ++value 의미 : value 자기자신에 1증가 그 값 temp 대입	
-	//int temp = --value; // temp = --value 의미 : value 자기자신에 1감소 그 값 temp 대입
+	int temp = --value; // temp = --value 의미 : value 자기자신에 1감소 그 값 temp 대입
 	System.out.println("temp : " + temp);
 	System.out.println("value : " + value);
 

@@ -10,7 +10,7 @@
 */
 public class IfElseETC{
   //main method
-  public static void mian(String args[]){
+  public static void main(String args[]){
 	//==> 사용확인
 	System.out.println("입력하신 \"1번째 인수는\" : "  + args[0]);
 	System.out.println("입력하신 \"2번째 인수는\" : "  + args[1]);

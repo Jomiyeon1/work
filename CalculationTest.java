@@ -29,7 +29,7 @@ public class CalculationTest
 	c += 10;
 	System.out.println("c += 10 = " +c);
 
-	//논리반전연산잔
+	//논리반전연산자
 	boolean boo1 = true;
 	boolean boo2 =!boo1;
 
