@@ -2,23 +2,28 @@ class  javaExample5
 {
 	public static void main(String[] args) 
 	{
-		// ¹®ÀÚ¿­ ¹è¿­ ¸¸µé±â
+		// ë¬¸ìì—´ ë°°ì—´ ë§Œë“¤ê¸°
 		String[][] text = new String[9][9];
-		//½ÇÇà°á°ú
-		// 1´ÜÀ» Ãâ·ÂÇÕ´Ï´Ù.
+		//ì‹¤í–‰ê²°ê³¼
+		// 1ë‹¨ì„ ì¶œë ¥í•©ë‹ˆë‹¤.
 		// text[0][0] : 1*1=1 ...
 
-		//½ºÆ®¸µ ÀÎÆ®·Î º¯È¯
+		//ìŠ¤íŠ¸ë§ ì¸íŠ¸ë¡œ ë³€í™˜
+		//text =  Integer.parseInt(); 
+		//int[] nums = Arrays.stream(text).mapToInt(Integer::parseInt).toArray();
+		//int i = Integer.parseInt(args[0]); 
 
-		// ¹è¿­¿¡ °ª ´ëÀÔ.
-		// Ã¹¹øÂ° ¹è¿­¿¡ ´ëÀÔ
-		for(int i = 1; i < 10; i++){
-			text[i][1] = 1 * (i+1);		
-		}// for¹® >  i
+		// ë°°ì—´ì— ê°’ ëŒ€ì….
+		// ì²«ë²ˆì§¸ ë°°ì—´ì— ëŒ€ì…
+		for(int i = 0; i < text.length; i++){
+			System.out.println((i+1) + "ë‹¨ì„ ì¶œë ¥í•©ë‹ˆë‹¤.");
+			// ë°°ì—´ì˜ ë°°ì—´ê°’
+			for(int j = 0; j < text.length; j++){
+				text[i][j] =(i+1)+"*"+(j+1)+"="+(i+1)*(j+1);
+				System.out.println("text["+i+"]["+j+"]:"+text[i][j]);
 
-			System.out.println(text[i][1]);
-
-		// µÎ¹øÂ° ¹è¿­¿¡ ´ëÀÔ
+			}
+		}
 
 
 
