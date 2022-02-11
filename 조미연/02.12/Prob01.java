@@ -16,7 +16,7 @@ class Prob01
 			System.out.println("잘못된 숫자가 입력되었습니다. 프로그램이 종료됩니다.");
 			return;
 		}
-
+			System.out.println(inputInt +"단을 출력합니다.");
 		
 		//입력받은 숫자 단의 구구단 출력하기.
 		for(int i = 1; i < 10 ; i++){

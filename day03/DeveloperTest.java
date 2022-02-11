@@ -19,7 +19,7 @@ class DeveloperTest
 		//project에 참여
 		developer.participateProject();
 		System.out.println("평균 수입은 : " + developer.avgIncome);
-		System.out.println("project 참여 경력은 : " + developer.avgIncome);
+		System.out.println("project 참여 경력은 : " + developer.projectCareer);
 
 		System.out.println("==========================");
 

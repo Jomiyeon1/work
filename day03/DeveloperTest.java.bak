@@ -16,6 +16,17 @@ class DeveloperTest
 		System.out.println("===========================");
 
 
+		//project에 참여
+		developer.participateProject();
+		System.out.println("평균 수입은 : " + developer.avgIncome);
+		System.out.println("project 참여 경력은 : " + developer.avgIncome);
+
+		System.out.println("==========================");
+
+		//1개의 과목을강의
+		deverloper.instruct();
+		System.out.println("평균 수입은 : " + developer.avgIncome);
+
 
 
 	}//main
