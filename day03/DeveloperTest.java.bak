@@ -8,24 +8,24 @@ class DeveloperTest
 		Developer developer = new Developer();
 
 		//developer 식별성을 갖는 Instance 연산자를 통해 사용.
-		System.out.println("이름 : " +developer.name);
-		System.out.println("직업 : " +developer.job);
-		System.out.println("평균수입 : " + developer.avgIncome);
-		System.out.println("PJT경력 : " + developer.projectCareer);
+		System.out.println("이름 : "+developer.name);
+		System.out.println("직업 : "+developer.job);
+		System.out.println("평균수입은 : "+developer.avgIncome);
+		System.out.println("PJT경력은 : "+developer.projectCareer);
 
 		System.out.println("===========================");
 
 
 		//project에 참여
 		developer.participateProject();
-		System.out.println("평균 수입은 : " + developer.avgIncome);
-		System.out.println("project 참여 경력은 : " + developer.avgIncome);
-
+		System.out.println("평균수입은 :" + developer.avgIncome);
+		System.out.println("project참여 경력은 :" + developer.projectCareer);
+	
 		System.out.println("==========================");
 
 		//1개의 과목을강의
-		deverloper.instruct();
-		System.out.println("평균 수입은 : " + developer.avgIncome);
+		developer.instruct();
+		System.out.println("평균수입은 :" +developer.avgIncome);
 
 
 

@@ -13,7 +13,7 @@ class Developer
 		//Method => 기능, 행위(behavior)표현
 
 
-		public void partcipateProject(){
+		public void participateProject(){
 			System.out.println("프로그램 개발로 수입증가, 경력쌓음)");
 				avgIncome++;
 				projectCareer++;

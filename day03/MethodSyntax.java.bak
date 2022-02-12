@@ -2,8 +2,7 @@
 
 class MethodSyntax
 {
-	public static void main(String[] args) 
-	{
+
 		//Field
 		String name = "È«±æµ¿";
 		String add = "ÇÑ¾ç";
@@ -38,5 +37,5 @@ class MethodSyntax
 			return str;
 		}
 		
-	}//main
+	
 }//class
