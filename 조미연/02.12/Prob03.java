@@ -10,7 +10,7 @@ class Prob03
 		int inputInt = keyboard.nextInt();
 
 		int a = 1;
-		int b = 0;
+		
 		
 		if(inputInt < 1 || inputInt > 10){
 			System.out.println("잘못된 숫자가 입력되었습니다..");
@@ -18,7 +18,6 @@ class Prob03
 		}//if
 		for(int i = 1; i < inputInt+1 ; i++){
 			a = a * i;
-			b = b + a;
 			System.out.println( i + "! = " + a ); 
 			
 		}//for
