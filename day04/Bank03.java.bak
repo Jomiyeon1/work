@@ -6,7 +6,7 @@ public class Bank03{
 	int money;
 	int command;
 	String bankName;
-	String uesrName;
+	String userName;
 
 	//Constructor
 	public Bank03(){
@@ -14,7 +14,7 @@ public class Bank03{
 	}
 	public Bank03(String[] str){
 		validate(str); // 인자값 검증
-		initialze(str); // Field 초기화
+		initialize(str); // Field 초기화
 		work(); // commad가 입출금 판단하여 해당 method 호출
 		displayMoney(); // 잔액표시
 	}

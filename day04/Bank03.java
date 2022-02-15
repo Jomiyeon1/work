@@ -6,7 +6,7 @@ public class Bank03{
 	int money;
 	int command;
 	String bankName;
-	String uesrName;
+	String userName;
 
 	//Constructor
 	public Bank03(){
@@ -47,7 +47,7 @@ public void initialize(String[] value){
 // 입출금을 판단 후 관련 method 호출
 public void work(){
 	if(command == 1){
-		doposit();
+		deposit();
 	}else if(command ==2){
 		withdrawal();
 	}
