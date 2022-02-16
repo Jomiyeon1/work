@@ -1,0 +1,55 @@
+public class Bank02{
+	//Field
+	int balance;
+	String bankName;
+	String userName;
+	int money;
+
+/*
+	public Bank02(){
+		userName = "全辨悼";
+		bankName = "茄固篮青";
+		balance = 0;
+		money = 0;
+	}
+*/
+//===========================================
+	public Bank02(String name){
+		System.out.println("name 积己磊");
+		userName = name;
+	}
+
+	public Bank02(String bank){
+		System.out.println("bankName 积己磊");
+		bankName = bank;
+	}
+
+	public Bank02(int bal){
+		System.out.println("balance 积己磊");
+		balance = bal;
+	}
+
+	public Bank02(int mon){
+		System.out.println("money 积己磊");
+		money = mon;
+	}
+
+
+	//===================getter
+	public String getUserName(){
+		return name;
+	}
+
+	public String getBankName(){
+		return bank;
+	}
+
+	public int getBalance(){
+		return bal;
+	}
+
+	public int getMoney(){
+		return mon;
+	}
+
+} //class
