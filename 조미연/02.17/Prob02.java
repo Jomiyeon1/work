@@ -13,7 +13,7 @@ public class Prob02 {
 			return (num1 - num2);
 		 }else if(num2 > num1){
 			return (num2 - num1);	
-		 }else{
+		 }else{ // 값이 같다면? 0 출력.
 			return 0;
 		 }
 	}/// end of abs
@@ -25,11 +25,11 @@ public class Prob02 {
 	///main
 	public static void main(String[] args) 
 	{
-		int num1 = -1;
-		int num2 = -1;
+		int num1 = 6;
+		int num2 = 15;
 
 		Prob02 prob = new Prob02();
-		System.out.println("두수의 차는 " + prob abs(num1, num2) );
+		System.out.println("두수의 차는 " + prob.abs(num1, num2));
 
 	}///end of main 
 
