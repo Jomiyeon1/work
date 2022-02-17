@@ -14,29 +14,13 @@ public class Prob01
 		// 잘못된 값 걸러주기.
 		if(i < 1 || i % 2 == 0){
 			System.out.println("0보다 큰 홀수만 입력 가능합니다.");
-			return;
+			return; // =>System.exit(0);
 		}
 		//2. 숫자의 개수만큼 * 출력 후 그 밑줄(println)에 -2개 만큼의 별 출력 && 가운데 정렬.
-		int j = 1;
-/*		for( ;i < j-1;i--){
-			System.out.print("*");
+		//int j = 1;
 		
-		}
-
-*/
-/*		while(i == j){
-			System.out.print("*");
-			i--;
-
-		}
-*/
-		while(true){
-			i--;
-			if( i < 0){
-			System.out.println("끝!");
-			break;
-
-			}
+		for(int j = i; j == 0 ; j--){
+			System.out.println("*");
 		}
 
 
