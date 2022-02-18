@@ -43,10 +43,10 @@ public class Prob01
 		
 		}// for문 n
 		//반복문이 끝나면 줄내려쓰기.
-		System.out.print("\n");
+		
 
 	}//for문 k
-		
+		System.out.print("\n");
 		
 	}///main
 }///class
