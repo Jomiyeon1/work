@@ -17,12 +17,35 @@ public class Prob01
 			return; // =>System.exit(0);
 		}
 		//2. 숫자의 개수만큼 * 출력 후 그 밑줄(println)에 -2개 만큼의 별 출력 && 가운데 정렬.
-		//int j = 1;
+		//int j = 0;
 		
-		for(int j = i; j == 0 ; j--){
-			System.out.println("*");
+/*		while(j < i){
+			for(int count = 0; count < i; count++){
+				System.out.print("*");
+			}
+			System.out.println("\n");
+			j++;
 		}
+	
+*/
 
+	// int i = 입력 받은 값.
+	// int j = 고정값.(입력받은 값과 같은 값)
+	int j = i;
+	for(int k = 0; k < j; k++){
+			System.out.print(" ");
+		
+		for(int n = 0; n < i; n++){
+			System.out.print("*");
 
+			i -= 2;
+		
+		}// for문 n
+		//반복문이 끝나면 줄내려쓰기.
+		System.out.print("\n");
+
+	}//for문 k
+		
+		
 	}///main
 }///class
