@@ -13,8 +13,6 @@ public class FactorialUtil{
 		//출력되야할 문구
 		int result = 1;
 		int number = n;
-		System.out.print("팩토리얼 결과 값 = ");
-
 		
 		for(int i = 1; i < n+1 ; i++){
 			result = i * result;
@@ -33,7 +31,7 @@ public class FactorialUtil{
 			number--;
 			//마지막 괄호 출력	
 				if(number == 0){
-					System.out.print(")");
+					System.out.print(") = ");
 				}
 		}
 		return result;

@@ -1,44 +1,7 @@
 import java.util.Scanner;
 
-public class Rectangle
-{
-}
-
 public class TestRectangle{
-	//Field
-	int width;
-	int length;
-	String color;
-	int area; // 넓이
-	int perimiter; // 둘레
-
-	//======================
-	int width2;
-	int length2;
-	String color2;
-	int area2; // 넓이
-	int perimiter2; // 둘레
-
-	public TestRectangle(){
-	}
 	
-	//첫번째 setter
-	public void setWidth(int width, int length, String color){
-		this.width = width;
-		this.length = length;
-		this.color = color;
-	}
-
-	//두번째 setter
-	public void setWidth(int width, int length, String color){
-		this.width = width;
-		this.length = length;
-		this.color = color;
-	}
-		
-
-
-
 	//main
 	public static void main(String s[]){
 		Scanner keyboard = new Scanner(System.in);
@@ -65,13 +28,29 @@ public class TestRectangle{
 		rec2.setLength(keyboard.nextInt());
 
 		//넓이와 둘레 출력
-		System.out.println(rec1.getColor() + "직사각형의 넓이는" + rec1.area()+"이고, 둘레는 "+ rec1.perimter() + "입니다");
-		System.out.println(rec2.getColor() + "직사각형의 넓이는" + rec2.area()+"이고, 둘레는 "+ rec2.perimter() + "입니다");
+		System.out.println(rec1.getColor() + "직사각형의 넓이는" + rec1.area()+"이고, 둘레는 "+ rec1.perimeter() + "입니다");
+		System.out.println(rec2.getColor() + "직사각형의 넓이는" + rec2.area()+"이고, 둘레는 "+ rec2.perimeter() + "입니다");
 
 
 		// 두 직사각형의 넓이 비교
+		if(rec1.area() > rec2.area()){
+			System.out.println("넓이는 " + rec1.getColor() + "직사각형이 더 큽니다.");
+		}else if(rec2.area() > rec1.area()){
+			System.out.println("넓이는 " + rec2.getColor() + "직사각형이 더 큽니다.");
+		}else{
+			System.out.println("넓이는 같습니다.");
+		}
 
 		//두 직사각형의 둘레 비교
+		if(rec1.perimeter() > rec2.perimeter()){
+			System.out.println("둘레는 " + rec1.getColor() + "직사각형이 더 큽니다.");
+		}else if(rec2.perimeter() > rec1.perimeter()){
+			System.out.println("둘레는 " + rec2.getColor() + "직사각형이 더 큽니다.");
+		}else{
+			System.out.println("둘레는 같습니다.");
+		}
+
+
 
 	}//main
 

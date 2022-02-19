@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//★출력 순서가 이상함
 public class FactorialUtil{
 	//method
 	
