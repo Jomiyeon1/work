@@ -1,0 +1,17 @@
+//package jb01.part07;
+
+/*
+	1. Vector, Array의 Hierarchy를 보면 두 클래스는 동일한 공유 구조를 갖는다.
+	   추후 학습할 Thread의 동기화 부분에서 다른 동작을 한다.
+	2. Generic(jdk 1.5추가 기능)
+	  - ArrayList 생성시 관리할 Data Type을 미리 선언가능
+	  - Data 추출 시 관리할 Data Type이 결정되어 있으니 명시적 현변환이 불필요
+*/
+
+import java.util.*;
+
+public class ArratListTest03{
+
+	//ArrayList 생성시 관리(저장, 추출)될 객체의 Data Type 선언
+	ArrayList<String> arrayList = new ArrayList<String>(10);
+}//end of class
