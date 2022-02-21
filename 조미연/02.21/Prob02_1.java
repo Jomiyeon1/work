@@ -74,6 +74,17 @@ class Teacher extends Info{
 		super(name, age);
 		this.subject = subject;
 	}
+	//setter
+	public void setSubject(String subject){
+		this.subject = subject;
+	}
+	//getter
+	public String getSubject(String subject){
+		return subject;
+	}
+
+
+
 	public void print(){
 		System.out.println("이름: " +getName() + "\t 나   이 : " + getAge() + "\t 과   목 :" + subject);
 	}
@@ -81,7 +92,7 @@ class Teacher extends Info{
 }//end of Teacher class
 
 class Employee extends Info{
-	private String dept;
+	private String dept = null;
 
 	public Employee(){
 		super();
@@ -91,6 +102,16 @@ class Employee extends Info{
 		super(name, age);
 		this.dept = dept;
 	}
+
+	//setter
+	public void setDept(String dept){
+		this.dept = dept;
+	}
+	//getter
+	public String getDept(String dept){
+		return dept;
+	}
+
 
 	public void print(){
 		System.out.println("이름: " +getName() + "\t 나   이 : " + getAge() + "\t 과   목 :" + dept);
