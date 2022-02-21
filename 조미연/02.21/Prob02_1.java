@@ -52,13 +52,13 @@ class Student extends Info{
 		this.id = id;
 	}
 	//getter
-	public int getId(int id){
+	public int getId(){
 		return id;
 	}
 
 	//출력
 	public void print(){
-		System.out.println("이름: " +getName() + "\t 나   이 : " + getAge() + "\t 학   번 :" + id);
+		System.out.println("이름: " +getName() + "\t 나   이 : " + getAge() + "\t 학   번 :" + getId());
 	}
 
 }//end of Student
@@ -79,14 +79,14 @@ class Teacher extends Info{
 		this.subject = subject;
 	}
 	//getter
-	public String getSubject(String subject){
+	public String getSubject(){
 		return subject;
 	}
 
 
 
 	public void print(){
-		System.out.println("이름: " +getName() + "\t 나   이 : " + getAge() + "\t 과   목 :" + subject);
+		System.out.println("이름: " +getName() + "\t 나   이 : " + getAge() + "\t 과   목 :" + getSubject());
 	}
 
 }//end of Teacher class
@@ -108,13 +108,13 @@ class Employee extends Info{
 		this.dept = dept;
 	}
 	//getter
-	public String getDept(String dept){
+	public String getDept(){
 		return dept;
 	}
 
 
 	public void print(){
-		System.out.println("이름: " +getName() + "\t 나   이 : " + getAge() + "\t 과   목 :" + dept);
+		System.out.println("이름: " +getName() + "\t 나   이 : " + getAge() + "\t 과   목 :" + getDept());
 	}
 
 
