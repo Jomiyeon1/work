@@ -33,11 +33,11 @@ abstract class BusCharge{
 //		System.out.println("학생 : 300, 일반인 : 500, 어르신 무료.");
 //	}
 
-	public abstract void charge();
+	public abstract void charge(); // 추상적으로만 존재함. -> 반드시 하위에 구체적(O/R)해야함
 
 }//end of  BusCharge class
 
-// abstract 상속시 abstract method 필히 재정희(OverRiding)해야함! <- 강제성!
+// abstract 상속시 abstract method 필히 재정의(OverRiding)해야함! <- 강제성!
 class Student extends BusCharge{
 	public Student(){
 		super("학생");
@@ -46,7 +46,7 @@ class Student extends BusCharge{
 		System.out.println("300원");
 	}
 } // end of Student class
-// abstract 상속시 abstract method 필히 재정희(OverRiding)해야함! <- 강제성!
+// abstract 상속시 abstract method 필히 재정의(OverRiding)해야함! <- 강제성!
 
 class Adult extends BusCharge{
 	public Adult(){

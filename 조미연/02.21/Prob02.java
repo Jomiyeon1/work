@@ -2,9 +2,9 @@
 
 class Student{
 	//Field
-	String name;
-	int age;
-	int id;
+	private String name;
+	private int age;
+	private int id;
 
 	//Constructor
 	public Student(){
@@ -34,9 +34,9 @@ class Student{
 //=====================
 class Teacher{
 	//Field
-	String name;
-	int age;
-	String subject;
+	private String name;
+	private int age;
+	private String subject;
 
 	//Constructor
 	public Teacher(){
@@ -65,9 +65,9 @@ class Teacher{
 
 class Employee{
 	//Field
-	String name;
-	int age;
-	String dept;
+	private String name;
+	private int age;
+	private String dept;
 		
 	public Employee(){
 		

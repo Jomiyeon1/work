@@ -1,6 +1,8 @@
+// private로 바꾸고, setter/getter 생성할 것.
+
 class Student{
 	//Field
-	String name;
+	private String name;
 	int age;
 	int id;
 
