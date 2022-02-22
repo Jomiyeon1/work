@@ -1,0 +1,25 @@
+* interface
+- public static final 특성을 갖는다. ( 상수 )
+- public abstract 특성을 갖는다.
+
+* abstract
+- 필드 공유 가능
+
+* extends
+- java는 단일 상속만을 지원한다.
+- 만약 상위 클래스에 같은 이름의 메소드, 필드가 있을 경우 어떤 것을 상속받아야할지 명확하지 않기때문이다.
+
+** static 은 클래스명으로 접근하자! (가독성)
+
+* null 키워드
+- 참조하는 인스턴스가 없다.
+- null로 인해 식별성이 없어진 경우(null로 초기화한 경우 => 참조가 끊긴다.), garbage collection 된다. (하단 참조)
+!) Garbage Collection 이해
+ㅇ garbage  : 식별성이 없는 값
+ㅇ garbage collector : garbage값들을 모아놓은 것.
+ㅇ garbage collecting : garbage collector가 필요없는 값을 버리는 것. (메모리 관리에 용이)
+ㅇ garbage collection : 위의 일련 과정들을 일컷는 말
+
+
+* localVariable(지역변수) 초기화 > 자동 초기화 안됨. => 선언과 동시에 초기화하자!
+
