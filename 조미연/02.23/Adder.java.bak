@@ -11,7 +11,9 @@ public class Adder{
 
 			}else{
 				strNum += c;
-			}	
+			}
+		
+		
 		}
 		return (result + Integer.parseInt(strNum));
 	}
