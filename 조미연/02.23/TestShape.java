@@ -6,7 +6,7 @@ public class TestShape{
 		shape[1] = new Rectangular("직사각형",10, 20);
 
 		for(int i = 0; i <shape.length; i++){
-			shape[i].calulationArea();
+			shape[i].calculationArea();
 			shape[i].print();
 		}
 	

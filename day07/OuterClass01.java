@@ -36,7 +36,20 @@ public class OuterClass01{
 		//Method
 		public void innerMethod(){
 		//innerClass에서 out class로 접근
-		//Outer
+		//OuterClass의 Field, method에 쉽게 접근 :: 레퍼런스 불필요
+		System.out.println("==> " + this.getClass().getName()+ "start..");
+		//==> OuterClass의 Field 접근 방식 2가지
+		System.out.println(outer);
+		System.out.println(OuterClass01.this.outer);
+		//==> 아래의 실행문을 주석을 풀면 compile error이 발생한다 이유는..
+		//System.out.println(this.outer);
+		System.out.println(inner);
+		System.out.println("==> " + this.getClass().getName() + "End...");
 		}
 	}//inner class
+
+	//main
+	public static void main(String[] args){
+		new OuterClass01().outerMethod();
+	}
 }//end of class

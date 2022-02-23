@@ -15,7 +15,8 @@ public class ArrayListTest03{
 	public static void main(String[] args){
 
 	//ArrayList 생성시 관리(저장, 추출)될 객체의 Data Type 선언
-	ArrayList<String> arrayList = new ArrayList<String>(10);
+	//ArrayList<String> arrayList = new ArrayList<String>(10);
+	List<String> arrayList = new ArrayList<String>(10);
 
 	//add(E obj) : E를 인자로 받는다는 의미는? Generic 사용으로 묵시적 형변환 불필요
 	String s1 = new String("1. 홍");

@@ -18,9 +18,9 @@ public class VectorTest01{
 	vector.add(new String("2. 동"));
 	vector.add("3.님 안안녕하세요.");
 	
-	//Vector 저장된 값을 출력 :: vector.capacity() 무엇을 return 하는가
-	for(int i = 0; i < vector.size(); i++){
-		Object obj = vector.elementAt(i);
+	//Vector 저장된 값을 출력 :: vector.capacity() 무엇을 return 하는가 > 갖고있는 방의 개수를 int로 return
+	for(int i = 0; i < vector.size(); i++){ // size > 값을 담고 있는 개수
+		Object obj = vector.elementAt(i); // 어떤 타입이 들어있는지 모르니 Object(모든 타입 수용가능)로 받는다.
 		String s = (String)obj;
 		//String s = (String)vector.elementAt(i) // 위 두 라인과 비교
 		System.out.print(s);

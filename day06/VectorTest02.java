@@ -28,7 +28,7 @@ public void pringString(Vector vector){
 //		System.out.print( ( String ) vector.elementAt(i));
 //	}
 
-	// 위의 for문과 비교하여 이해하자. JDK 1.5에 추가된 기능 :: Enhanced Foe Loop
+	// 위의 for문과 비교하여 이해하자. JDK 1.5에 추가된 기능 :: Enhanced For Loop
 	// Vector 내부의 저잔된 값을 size()만큼 반복, 1EA씩 추출 Object에 담아 준다.
 	for(Object object : vector){
 		//==> 위 for문의 elemnetAt()후 Casting한 것과 비교하여 이해

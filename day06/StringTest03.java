@@ -6,7 +6,7 @@ public class StringTest03{
 	//main
 	public static void main(String[] args){
 		String name = "012ABCedf";
-		String hi = "Hi!";
+		String hi = "Hi !";
 
 		String s1 = hi.concat(name);
 		System.out.println(s1);
