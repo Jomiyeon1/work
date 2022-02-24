@@ -1,5 +1,5 @@
 //package jp02.part04;
-
+//★ 돌아가는 메커니즘 이해하기.
 /*
 	1. Exeption.class의 상속, 새로운 Exception 구현 > User Definition Exception
 	2. User Definition Exception : JRE에서 예외를 생성 및 발생 불가.

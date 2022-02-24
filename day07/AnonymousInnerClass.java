@@ -38,6 +38,14 @@ public class AnonymousInnerClass{
 		}
 		new B().abc("Hello");
 		new B().def("Hello");
+
+		
+		new A(){
+			public void def(String message){
+				System.out.println(":: Hi" + message);
+			}
+		}.abc("Hello");
+
 		=====================================================*/
 
 		//3. 위의 코드를 이해한다면, 아래의 코드는...
@@ -55,7 +63,7 @@ public class AnonymousInnerClass{
 		System.out.println("4.======================");
 		new A(){
 			public void def(String message){
-					System.out.println("::" + this.getClass().getName() + "end...");
+					System.out.println("::" + this.getClass().getName() + "srart...");
 					System.out.println(":: def() " + message);
 					System.out.println("::" + this.getClass().getName() + "end...");
 				
